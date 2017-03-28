@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hGraphic32">
+      <UniqueIdentifier>{6de00de7-f047-4eee-b96f-d15f4602543a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="raytracer">
+      <UniqueIdentifier>{2b4b3f40-79a0-4f5e-893a-f6d0e697065c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\hGraphic32\hBmpFile.cpp">
+      <Filter>hGraphic32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hGraphic32\hPixels32.cpp">
+      <Filter>hGraphic32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hGraphic32\hStream.cpp">
+      <Filter>hGraphic32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\raytracerTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\hGraphic32\hBmpFile.h">
+      <Filter>hGraphic32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hGraphic32\hColor32.h">
+      <Filter>hGraphic32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hGraphic32\hGraphic32.h">
+      <Filter>hGraphic32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hGraphic32\hPixels32.h">
+      <Filter>hGraphic32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\hGraphic32\hStream.h">
+      <Filter>hGraphic32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CheckerMaterial.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Color.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IGeometry.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMaterial.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IntersectResult.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PerspectiveCamera.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\PhongMaterial.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Plane.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ray3.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sphere.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Union.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Vector3.h">
+      <Filter>raytracer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

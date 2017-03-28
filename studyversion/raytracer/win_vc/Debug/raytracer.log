@@ -1,0 +1,14 @@
+﻿  raytracerTest.cpp
+c:\users\zhouyuxing\desktop\test\raytracer\vector3.h(6): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\zhouyuxing\desktop\test\raytracer\union.h(24): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\zhouyuxing\desktop\test\raytracer\checkermaterial.h(14): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  hStream.cpp
+  hPixels32.cpp
+  hBmpFile.cpp
+c:\users\zhouyuxing\desktop\test\hgraphic32\hbmpfile.cpp(271): warning C4244: “=”: 从“long”转换到“tWORD”，可能丢失数据
+c:\users\zhouyuxing\desktop\test\hgraphic32\hbmpfile.cpp(307): warning C4244: “=”: 从“UInt32”转换到“UInt16”，可能丢失数据
+  正在生成代码...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\ZhouYuxing\Desktop\test\raytracer\win_vc\.\raytracer.exe) does not match the Linker's OutputFile property value (C:\Users\ZhouYuxing\Desktop\test\raytracer\raytracer.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+hBmpFile.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  raytracer.vcxproj -> C:\Users\ZhouYuxing\Desktop\test\raytracer\win_vc\.\raytracer.exe
+  raytracer.vcxproj -> .\Debug/raytracer.pdb (Full PDB)
