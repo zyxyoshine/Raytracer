@@ -1,0 +1,38 @@
+resolution: 640 480 256
+file-name: scene1.ppm
+camera-origin: 1 -5 3
+camera-focus: -0.3 1 -.4
+camera-zoom: 1.4
+recursion: 6
+supersample: 4
+sample-method: random
+//uniform,random
+
+object: light
+radius: 1
+origin: 0 -15 15
+intensity: .5
+color: 1 1 1
+
+object: plane
+origin: 0 0 0
+normal: 0 0 1
+texture-scale: 2
+color: .1 .1 .1
+color2: 1 1 1
+reflection: .9
+
+object: sphere
+origin: 0 0 1
+radius: 1
+texture-scale: .05
+texture: image
+image: earth.ppm
+reflection: 0.5
+
+object: sphere
+origin: -2.2 0 1
+radius: 1
+texture-scale: 10
+color: 1 1 1
+reflection: .9

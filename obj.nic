@@ -1,0 +1,26 @@
+resolution: 640 480 256
+file-name: scene1.ppm
+camera-origin: 3 -6 3
+camera-focus: -0.5 1 -.5
+camera-zoom: 1
+recursion: 6
+supersample: 4
+sample-method: random
+//uniform,random
+
+obj: cube.obj
+
+object: light
+radius: 1
+origin: -15 15 20
+intensity: .7
+color: 1 1 1
+
+
+object: plane
+origin: 0 0 -1
+normal: 0 0 1
+texture-scale: 2
+color: .1 .1 .1
+color2: 1 1 1
+reflection: .99
